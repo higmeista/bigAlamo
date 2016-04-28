@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5442F3C31CD1A7160042CEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442F3C21CD1A7160042CEC6 /* AppDelegate.swift */; };
+		5442F3C51CD1A7160042CEC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442F3C41CD1A7160042CEC6 /* ViewController.swift */; };
+		5442F3C81CD1A7160042CEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442F3C61CD1A7160042CEC6 /* Main.storyboard */; };
+		5442F3CA1CD1A7160042CEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5442F3C91CD1A7160042CEC6 /* Assets.xcassets */; };
+		5442F3CD1CD1A7160042CEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442F3CB1CD1A7160042CEC6 /* LaunchScreen.storyboard */; };
+		A2412FF7492CCC8771DE2918 /* Pods_bigAlamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CB32A5000C7221B1BC129D /* Pods_bigAlamo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		125676A95249D64181680544 /* Pods-bigAlamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigAlamo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bigAlamo/Pods-bigAlamo.debug.xcconfig"; sourceTree = "<group>"; };
+		21C4F5B79EAA2E2BAEBBCD45 /* Pods-bigAlamo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigAlamo.release.xcconfig"; path = "Pods/Target Support Files/Pods-bigAlamo/Pods-bigAlamo.release.xcconfig"; sourceTree = "<group>"; };
+		5442F3BF1CD1A7160042CEC6 /* bigAlamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigAlamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5442F3C21CD1A7160042CEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5442F3C41CD1A7160042CEC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5442F3C71CD1A7160042CEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5442F3C91CD1A7160042CEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5442F3CC1CD1A7160042CEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5442F3CE1CD1A7160042CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CB32A5000C7221B1BC129D /* Pods_bigAlamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bigAlamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5442F3BC1CD1A7160042CEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2412FF7492CCC8771DE2918 /* Pods_bigAlamo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5442F3B61CD1A7160042CEC6 = {
+			isa = PBXGroup;
+			children = (
+				5442F3C11CD1A7160042CEC6 /* bigAlamo */,
+				5442F3C01CD1A7160042CEC6 /* Products */,
+				9077B44AA49E69EBDB86B859 /* Pods */,
+				5736855D17C60D5B3C98E8A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5442F3C01CD1A7160042CEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5442F3BF1CD1A7160042CEC6 /* bigAlamo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5442F3C11CD1A7160042CEC6 /* bigAlamo */ = {
+			isa = PBXGroup;
+			children = (
+				5442F3C21CD1A7160042CEC6 /* AppDelegate.swift */,
+				5442F3C41CD1A7160042CEC6 /* ViewController.swift */,
+				5442F3C61CD1A7160042CEC6 /* Main.storyboard */,
+				5442F3C91CD1A7160042CEC6 /* Assets.xcassets */,
+				5442F3CB1CD1A7160042CEC6 /* LaunchScreen.storyboard */,
+				5442F3CE1CD1A7160042CEC6 /* Info.plist */,
+			);
+			path = bigAlamo;
+			sourceTree = "<group>";
+		};
+		5736855D17C60D5B3C98E8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80CB32A5000C7221B1BC129D /* Pods_bigAlamo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9077B44AA49E69EBDB86B859 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				125676A95249D64181680544 /* Pods-bigAlamo.debug.xcconfig */,
+				21C4F5B79EAA2E2BAEBBCD45 /* Pods-bigAlamo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5442F3BE1CD1A7160042CEC6 /* bigAlamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5442F3D11CD1A7160042CEC6 /* Build configuration list for PBXNativeTarget "bigAlamo" */;
+			buildPhases = (
+				767B60AF58EB63AE8721546E /* 📦 Check Pods Manifest.lock */,
+				5442F3BB1CD1A7160042CEC6 /* Sources */,
+				5442F3BC1CD1A7160042CEC6 /* Frameworks */,
+				5442F3BD1CD1A7160042CEC6 /* Resources */,
+				25D725A21C2CD5329C48F9F7 /* 📦 Embed Pods Frameworks */,
+				161312AD8490190E27FFC9CF /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bigAlamo;
+			productName = bigAlamo;
+			productReference = 5442F3BF1CD1A7160042CEC6 /* bigAlamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5442F3B71CD1A7160042CEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bigIota;
+				TargetAttributes = {
+					5442F3BE1CD1A7160042CEC6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5442F3BA1CD1A7160042CEC6 /* Build configuration list for PBXProject "bigAlamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5442F3B61CD1A7160042CEC6;
+			productRefGroup = 5442F3C01CD1A7160042CEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5442F3BE1CD1A7160042CEC6 /* bigAlamo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5442F3BD1CD1A7160042CEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5442F3CD1CD1A7160042CEC6 /* LaunchScreen.storyboard in Resources */,
+				5442F3CA1CD1A7160042CEC6 /* Assets.xcassets in Resources */,
+				5442F3C81CD1A7160042CEC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		161312AD8490190E27FFC9CF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigAlamo/Pods-bigAlamo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D725A21C2CD5329C48F9F7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigAlamo/Pods-bigAlamo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767B60AF58EB63AE8721546E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5442F3BB1CD1A7160042CEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5442F3C51CD1A7160042CEC6 /* ViewController.swift in Sources */,
+				5442F3C31CD1A7160042CEC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5442F3C61CD1A7160042CEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5442F3C71CD1A7160042CEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5442F3CB1CD1A7160042CEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5442F3CC1CD1A7160042CEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5442F3CF1CD1A7160042CEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5442F3D01CD1A7160042CEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5442F3D21CD1A7160042CEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125676A95249D64181680544 /* Pods-bigAlamo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bigAlamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.bigiota.bigAlamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5442F3D31CD1A7160042CEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C4F5B79EAA2E2BAEBBCD45 /* Pods-bigAlamo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bigAlamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.bigiota.bigAlamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5442F3BA1CD1A7160042CEC6 /* Build configuration list for PBXProject "bigAlamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5442F3CF1CD1A7160042CEC6 /* Debug */,
+				5442F3D01CD1A7160042CEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5442F3D11CD1A7160042CEC6 /* Build configuration list for PBXNativeTarget "bigAlamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5442F3D21CD1A7160042CEC6 /* Debug */,
+				5442F3D31CD1A7160042CEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5442F3B71CD1A7160042CEC6 /* Project object */;
+}
